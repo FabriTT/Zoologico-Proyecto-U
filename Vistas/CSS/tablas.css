@@ -1,0 +1,145 @@
+.tabla{
+   
+    color: black;
+    text-align: center;
+    margin: 15px;
+    border-collapse: collapse;
+}
+
+.th_x{
+    padding: 10px;
+
+    
+}
+.td_x{
+    border-top: solid 2px black;
+    padding: 10px;
+}
+
+.td_btn{
+    border-top: solid 2px black;
+    padding: 8px;
+    
+}
+
+.tr_x:nth-child(even){
+    background-color: #E2EFD9;
+}
+
+
+thead{
+    background-color: #1a9e44;
+    color: white;
+    
+}
+
+h2{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: black;
+}
+
+.btn{
+    border: solid 1px black;
+    margin-top: 5px;
+}
+
+body::-webkit-scrollbar{
+    width: 0px;
+
+}
+
+.txt{
+    color: white;
+    background: #ffffff00;
+    border: 2px solid black;
+    margin-right: 15px;
+    height: 35px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.lb{
+    margin-right: 15px;
+}
+
+.btn_insert{
+    margin-right: 15px;
+    height: 38px;
+}
+
+.xmargin{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.lb-modal{
+    color: black;
+    background: white;
+    margin: 7px;
+}
+
+.txt-modal{
+    color: black;
+    background: white;
+    border: 2px solid black;
+    margin: 7px;
+    height: 30px;
+    width: 300px;
+
+}
+
+.txt-grafica{
+    color: black;
+    background: white;
+    border: 2px solid black;
+    margin: 7px;
+    height: 30px;
+    width: 200px;
+
+}
+
+.lista{
+    color: black;
+    background: white;
+    border: 2px solid black;
+    margin: 7px;
+    width: 300px;
+    height: 30px;
+}
+
+
+.txtImg{
+    color: black;
+    background: white;
+    border: 2px solid black;
+
+    margin: 7px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.txt3-modal{
+    color: black;
+    background: white;
+    border: 2px solid black;
+    margin: 7px;
+    height: 30px;
+    width: 215px;
+
+}
+
+.grafica{
+    width: 950px; 
+}
+
+
+.btn_cont{
+    border: solid 1px black;
+    margin: 1px;
+}

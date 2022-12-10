@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Login Bioparque Municipal Vesty Pakos Sofro</title>
+  </head>
+  <body>
+  
+
+  <div class="d-lg-flex half">
+    <div class="bg order-1 order-md-2" style="background-image: url('images/login6.jpg');"></div>
+    <div class="contents order-2 order-md-1">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-7">
+            <h3><strong>Bioparque Vesty Pakos Sofro </strong></h3>
+            <p class="mb-4">Sistema para la admnistracion del bioparque.</p>
+            <form action="#" method="post">
+              <div class="form-group first">
+                <label for="username">Correo</label>
+                <input type="text" id="txtCorreo" class="form-control txt" placeholder="Tu email@gmail.com" name="txtCorreo" maxlength="50">  
+              </div>
+              <div class="form-group first">
+                <label for="username">Codigo</label>
+                <input type="text" id="txtNumero" class="form-control txt" placeholder="Tu Codigo generado" name="txtNumero" maxlength="5">    
+              </div>
+              <div class="form-group last mb-3">
+                <label for="password">Contraseña</label>
+                <input type="password" id="txtPassword" class="form-control txt" placeholder="Tu contraseña" name="txtPassword" maxlength="50">
+              </div>
+              
+              <div class="d-flex mb-5 align-items-center">
+                <label class="control control--checkbox mb-0"><span class="caption">Ver contraseña</span>
+                  <input type="checkbox"  name="chVer" id="chVer" onclick="ocultar()"/>
+                  <div class="control__indicator"></div>
+                </label>
+              </div>
+
+              <button value="btnValidar" type="button" class="btn btn-block btn-primary"  name="accion" id="btnValidar"  onclick="verificar()" >Verificar correo</button>
+              <button value="btnRestablecer" type="button" class="btn btn-block btn-primary"  name="accion" id="btnRestablecer"  onclick="CambiarContra()" style="display:none" >Cambiar contraseña</button>
+              <button value="btnComprobar" type="button" class="btn btn-block btn-primary"  name="accion" id="btnComprobar"  onclick="validarNum()" style="display:none" >Comprobar codigo</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+  <input type="text" id="contador" style="display:none" value="0">
+  <input type="hidden" class="form-control" id="OcultoId"  value="" >
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="../Javascript/Recuperar.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+
+  </body>
+</html>
